@@ -1,0 +1,15 @@
+<h1 class="titulo">
+<app-negrito [Negrito]=texto></app-negrito>
+</h1>
+
+<div class="conteiner" style="height: 10%; display: inline-block; @media and (max-width: 100px) {
+    width: 20%
+}">
+
+    <div class="col-4" *ngFor = "let dados of meusDados">
+        <strong>Nome:</strong> {{dados.nome}}  |  <strong>Idade:</strong> {{dados.idade}}  |  <strong>Cpf:</strong> {{dados.cpf}}  |  <strong>E-mail:</strong> {{dados.email}}  
+        <hr>
+        
+    </div>
+
+</div>

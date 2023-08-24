@@ -1,0 +1,12 @@
+.conteiner{
+    border: solid 5px black;
+    width: 1000px;
+    height: 600px;
+    margin: 50px;
+    margin-top: 30px;
+}
+
+.titulo{
+    margin-top: 10px;
+    margin-left: 55px;
+}
